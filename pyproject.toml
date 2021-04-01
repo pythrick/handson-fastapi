@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Hands-on FastAPI"
+version = "0.1.0"
+description = "Hands-on FastAPI for Snowman Labs Stack Meeting"
+authors = ["Patrick Rodrigues"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
